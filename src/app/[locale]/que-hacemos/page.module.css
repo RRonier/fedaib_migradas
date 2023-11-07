@@ -1,0 +1,24 @@
+.main {
+    margin: 5px 40px;
+    background-color: #FFFFFF;
+    height: 100%;
+    font-size: larger;
+}
+
+.list {
+    margin: 10px 20px;
+    text-align: justify;
+    list-style-type: decimal;
+}
+
+.listElement {
+    margin-bottom: 5px;
+}
+
+.address {
+    margin: 10px 20px;
+}
+
+.address > *{
+    margin-bottom: 5px;
+}

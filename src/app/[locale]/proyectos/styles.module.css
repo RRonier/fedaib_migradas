@@ -1,0 +1,16 @@
+.main {
+    margin: 5px 40px;
+    background-color: #FFFFFF;
+    height: 100%;
+    font-size: larger;
+    position: relative;
+}
+
+.proyectos {
+    display: flex;
+    justify-content: center;
+}
+
+.projectDescription {
+    text-align: justify;
+}
