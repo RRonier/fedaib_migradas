@@ -1,0 +1,41 @@
+{
+    "que_hacemos": {
+        "title": "Que faisons nous?",
+        "first_line": "Développer des propositions d'intégration socio-économique, culturelle et politique en coordonnant les actions d'autres organisations qui revendiquent les droits, devoirs et obligations des immigrants.",
+        "second_line": "Promouvoir le respect des droits des immigrants selon les principes des droits de l'homme prévus dans les traités internationaux, de l'Union européenne et de l'État espagnol.",
+        "third_line": "Promouvoir les devoirs des immigrants dans la société dans laquelle ils vivent.",
+        "fourth_line": "Promouvoir à travers les associations d'immigrés la construction d'un espace organisationnel et institutionnel du point de vue politique, social, économique et culturel qui articule et respecte la nature organique des hommes et des femmes immigrés.",
+        "fifth_line": "Promouvoir le respect culturel et religieux des hommes et des femmes immigrés qui vivent et cohabitent dans la communauté biscayenne.",
+        "sixth_line": "Renforcer les organisations d'immigrés en Biscaye sur le plan organisationnel, institutionnel et technique.",
+        "seventh_line": "Sensibiliser les citoyens en général au potentiel de l'immigration.",
+        "eighth_line": "Surveiller les politiques, plans et programmes d'immigration au niveau de l'État espagnol, du gouvernement basque, des conseils provinciaux (Alava, Guipúzcoa et Biscaye) et des mairies de Biscaye.",
+        "ninth_line": "Fournir des stratégies de plaidoyer politique avec d'autres initiatives d'organisations similaires aux niveaux national, étatique et international.",
+        "tenth_line": "Rendre les femmes immigrées visibles en tant que sujets de plein droit.",
+        "find_us": "Où nous trouver?",
+        "street": "Calle San Adrian 25, 48003",
+        "phone": "Téléphone",
+        "cellphone": "Téléphone portable"
+    },
+    "quienes_somos": {
+        "title": "Qui sommes nous?",
+        "article": "Nous sommes une organisation qui rassemble des associations de la communauté immigrée et fonde ses actions sur des processus de plaidoyer politique en faveur des droits de tous, en mettant l'accent sur les immigrés, à partir d'une focalisation sur les devoirs et les droits. De même, promouvoir un espace organisationnel et institutionnel du point de vue politique, social, économique et culturel qui articule et représente les institutions et organisations tant publiques que privées de la société civile biscaïne et basque, dans le respect, l'autonomie et l'associativité des hommes et des femmes de l'immigré. groupe et ainsi avoir une influence sur le territoire historique de Biscaye."
+    },
+    "proyectos": {
+        "pageTitle": "Projets",
+        "subtitle": "FEDAIB réalise des projets...",
+        "titleProject": "Titre : Renforcement de l'infrastructure organisationnelle de la Fédération des Associations d'Immigrés de Biscaye (FEDAIB) pour améliorer ses actions organisationnelles et institutionnelles.",
+        "articleProject": "Description : À ce jour, la Fédération des Associations d'Immigrés de Biscaye (FEDAIB) a besoin de son propre espace pour son fonctionnement et pour réaliser la réalisation de ses objectifs organisationnels et institutionnels et les organisations qui font partie de ladite fédération, c'est-à-dire, le fournissent avec les ressources techniques et logistiques nécessaires, de telle sorte que les associations de la Fédération qui ne disposent pas de leur propre espace, disposent d'un espace pour mener à bien leurs activités organisationnelles, et donc, c'est l'espace institutionnel de la Fédération. 16 associations qui le composent.",
+        "entity": "Organisme de financement: Députation Forale de Bizkaia, Gouvernement Basque",
+        "country": "Pays d'exécution: Territoire Historique de Biscaye"
+    },
+    "navbar": {
+        "proyectos": "Projets",
+        "que_hacemos": "Que faisons nous?",
+        "quienes_somos": "Qui sommes nous?",
+        "contacto": "Contact",
+        "nuestras_actividades": "Nos activités"
+    },
+    "footer": {
+        "message": "Fédération des associations d'immigrés de Biscaye"
+    }
+}

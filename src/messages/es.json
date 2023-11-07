@@ -1,0 +1,41 @@
+{
+    "que_hacemos": {
+        "title": "¿Que hacemos?",
+        "first_line": "Desarrollar propuestas de integración socioeconómica, cultural y política coordinando acciones en otras organizaciones que reivindican los derechos, deberes y obligaciones de las personas inmigrantes.",
+        "second_line": "Promover el respeto de los derechos de las personas inmigrantes según los principios de los derechos humanos contemplados en los tratados internacionales, de la Unión Europea y del Estado Español.",
+        "third_line": "Promover los deberes de las personas inmigrantes en la sociedad con la que conviven.",
+        "fourth_line": "Potenciar a través de las asociaciones de inmigrantes el construir un espacio organizativo e institucional propio desde lo político, social, económico y cultural que articules y respete la organicidad de los hombres y mujeres inmigrantes.",
+        "fifth_line": "Potenciar el respeto cultural y religioso de los hombres y mujeres inmigrantes que habitan y conviven en la comunidad vizcaína.",
+        "sixth_line": "Fortalecer organizativa, institucional y técnicamente a las organizaciones de inmigrantes de Bizkaia.",
+        "seventh_line": "Sensibilizar a la ciudadanía en general en relación a las potencialidades de la inmigración.",
+        "eighth_line": "Hacer el seguimiento a las políticas, planes y programas de inmigración a nivel del estado español, Gobierno Vasco, Diputaciones (Alava, Guipúzcoa y Bizkaia) y Ayuntamientos de Bizkaia.",
+        "ninth_line": "Aportar estrategias de incidencia política con otras iniciativas de organizaciones similares a nivel nacional, estatal e internacional.",
+        "tenth_line": "Visibilizar a la mujer inmigrante como sujeto de pleno derecho.",
+        "find_us": "¿Donde encontrarnos?",
+        "street": "Calle San Adrian 25, 48003",
+        "phone": "Teléfono",
+        "cellphone": "Movil"
+    },
+    "quienes_somos": {
+        "title": "¿Quienes somos?",
+        "article": "Somos una organización que agrupa a asociaciones del colectivo inmigrante y, fundamenta su accionar en  procesos de incidencia política a favor de los derechos de todas las personas, haciendo énfasis en las personas inmigrantes, desde un enfoque de deberes y derechos. Así mismo, el potenciar un espacio organizativo e institucional propio desde lo político, social, económico y cultural que articule y represente tanto ante las instituciones públicas y privadas como organizaciones de la sociedad civil bizkaina y vasca, desde el respecto, la autonomía y la asociatividad de hombres y mujeres del colectivo inmigrante y con ello tener influencia en el Territorio Histórico de Bizkaia."
+    },
+    "proyectos": {
+        "pageTitle": "Proyectos",
+        "subtitle": "FEDAIB realiza proyectos...",
+        "titleProject": "Título: Fortalecimiento de la infraestructura organizativa de la Federación de Asociaciones de Inmigrantes de Bizkaia (FEDAIB) para la mejora de su accionar organizativo e institucional.",
+        "articleProject": "Descripción: A la fecha la Federación de Asociaciones de Inmigrantes de Bizkaia (FEDAIB), requiere de un espacio propio para su funcionamiento y llevar a cabo el cumplimiento de sus objetivos organizacionales e institucionales y de las organizaciones que hacen parte de dicha federación, es decir, dotarse del mismo, con los recursos técnicos y logísticos necesarios, de tal manera que aquellas asociaciones de la Federación que no dispongan de espacio propio, dispongan de un espacio para realizar sus actividades organizativas, y sea por tanto, el espacio institucional de la Federación de las 16 asociaciones que la conforman.",
+        "entity": "Entidad Financiadora: Diputación Foral de Bizkaia, Gobierno Vasco",
+        "country": "País de ejecución: Territorio Histórico de Bizkaia"
+    },
+    "navbar": {
+        "proyectos": "Proyectos",
+        "que_hacemos": "¿Que hacemos?",
+        "quienes_somos": "¿Quienes somos?",
+        "contacto": "Contacto",
+        "nuestras_actividades": "Nuestras actividades"
+    },
+    "footer": {
+        "message": "Federación de asociaciones de inmigrantes de Bizkaia"
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "que_hacemos": {
+        "title": "What we do?",
+        "first_line": "Develop proposals for socioeconomic, cultural and political integration by coordinating actions in other organizations that claim the rights, duties and obligations of immigrants.",
+        "second_line": "Promote respect for the rights of immigrants according to the principles of human rights contemplated in international treaties, of the European Union and of the Spanish State.",
+        "third_line": "Promote the duties of immigrants in the society with which they live.",
+        "fourth_line": "Promote through immigrant associations the construction of an organizational and institutional space from the political, social, economic and cultural perspective that articulates and respects the organic nature of immigrant men and women.",
+        "fifth_line": "Promote the cultural and religious respect of immigrant men and women who live and coexist in the Biscayan community.",
+        "sixth_line": "Strengthen immigrant organizations in Bizkaia organizationally, institutionally and technically.",
+        "seventh_line": "Raise awareness among citizens in general regarding the potential of immigration.",
+        "eighth_line": "Monitor immigration policies, plans and programs at the level of the Spanish state, the Basque Government, Provincial Councils (Alava, Guipúzcoa and Bizkaia) and City Councils of Bizkaia.",
+        "ninth_line": "Provide political advocacy strategies with other initiatives of similar organizations at the national, state and international level.",
+        "tenth_line": "Make immigrant women visible as subjects with full rights.",
+        "find_us": "Where to find us?",
+        "street": "Saint Adrian St. 25, 48003",
+        "phone": "Phone",
+        "cellphone": "Cell phone"
+    },
+    "quienes_somos": {
+        "title": "What we do?",
+        "article": "We are an organization that brings together associations of the immigrant community and bases its actions on political advocacy processes in favor of the rights of all people, emphasizing immigrants, from a focus on duties and rights. Likewise, promoting its own organizational and institutional space from the political, social, economic and cultural perspective that articulates and represents both public and private institutions and organizations of Bizkaian and Basque civil society, from respect, autonomy and associativity. of men and women of the immigrant group and thereby have influence in the Historical Territory of Bizkaia."
+    },
+    "proyectos": {
+        "pageTitle": "Projects",
+        "subtitle": "FEDAIB carries out projects...",
+        "titleProject": "Title: Strengthening the organizational infrastructure of the Federation of Immigrant Associations of Bizkaia (FEDAIB) to improve its organizational and institutional actions.",
+        "articleProject": "Description: To date, the Federation of Immigrant Associations of Bizkaia (FEDAIB) requires its own space for its operation and to carry out the fulfillment of its organizational and institutional objectives and the organizations that are part of said federation, that is, , provide it with the necessary technical and logistical resources, in such a way that those associations of the Federation that do not have their own space, have a space to carry out their organizational activities, and therefore, it is the institutional space of the Federation. of the 16 associations that make it up.",
+        "entity": "Financing Entity: Provincial Council of Bizkaia, Basque Government",
+        "country": "Country of execution: Historical Territory of Bizkaia"
+    },
+    "navbar": {
+        "proyectos": "Projects",
+        "que_hacemos": "What we do?",
+        "quienes_somos": "Who we are?",
+        "contacto": "Contact",
+        "nuestras_actividades": "Our activities"
+    },
+    "footer": {
+        "message": "Federation of immigrant associations of Bizkaia"
+    }
+}

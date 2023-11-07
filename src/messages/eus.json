@@ -1,0 +1,41 @@
+{
+    "que_hacemos": {
+        "title": "Zer egiten dugu?",
+        "first_line": "Integrazio sozioekonomiko, kultural eta politikorako proposamenak garatzea etorkinen eskubideak, betebeharrak eta betebeharrak aldarrikatzen dituzten beste erakunde batzuetan ekintzak koordinatuz.",
+        "second_line": "Etorkinen eskubideen errespetua sustatzea nazioarteko itunetan, Europar Batasuneko eta Espainiako Estatuko giza eskubideen printzipioen arabera.",
+        "third_line": "Etorkinen betebeharrak sustatzea bizi diren gizartean.",
+        "fourth_line": "Etorkinen elkarteen bitartez, gizon-emakume etorkinen izaera organikoa artikulatzen eta errespetatzen duen ikuspegi politiko, sozial, ekonomiko eta kulturalaren antolakuntza eta erakunde-espazio baten eraikuntza sustatzea.",
+        "fifth_line": "Bizkaiko erkidegoan bizi eta elkarbizitzen diren gizon-emakume etorkinen errespetu kulturala eta erlijiosoa sustatzea.",
+        "sixth_line": "Bizkaiko etorkinen erakundeak sendotzea antolamendu, instituzio eta teknikoki.",
+        "seventh_line": "Herritarrak orokorrean sentsibilizatzea immigrazioaren potentzialaren inguruan.",
+        "eighth_line": "Immigrazio-politiken, planen eta programen jarraipena egitea Espainiako Estatuaren, Eusko Jaurlaritzaren, Foru Aldundien (Araba, Gipuzkoa eta Bizkaia) eta Bizkaiko Udalen mailan.",
+        "ninth_line": "Sustapen politikorako estrategiak eskaintzea nazio, estatu eta nazioarteko mailan antzeko erakundeen beste ekimen batzuekin.",
+        "tenth_line": "Emakume etorkinak eskubide osoko subjektu gisa ikusaraztea.",
+        "find_us": "Non aurki gaitzazu?",
+        "street": "San Adrian kalea 25, 48003",
+        "phone": "Mugikorra",
+        "cellphone": "Telefono mugikorra"
+    },
+    "quienes_somos": {
+        "title": "Guri buruz?",
+        "article": "Etorkinen komunitateko elkarteak biltzen dituen erakundea gara eta bere ekintzak pertsona guztien eskubideen aldeko aldarrikapen politikoko prozesuetan oinarritzen gara, etorkinak azpimarratuz, betebehar eta eskubideetatik abiatuta. Era berean, erakunde eta erakunde-espazio propioa sustatzea Bizkaiko eta euskal gizarte zibileko erakunde eta erakunde publiko zein pribatuak artikulatzen eta ordezkatzen dituen ikuspegi politiko, sozial, ekonomiko eta kulturaletik, gizon-emakumeen errespetutik, autonomiatik eta elkartasunetik. etorkinen taldea eta, ondorioz, Bizkaiko Lurralde Historikoan eragina dute."
+    },
+    "proyectos": {
+        "pageTitle": "Proiektuak",
+        "subtitle": "FEDAIBek proiektuak egiten...",
+        "titleProject": "Izenburua: Bizkaiko Etorkinen Elkarteen Federazioaren (FEDAIB) antolamendu-azpiegitura indartzea bere antolamendu- eta erakunde-ekintzak hobetzeko.",
+        "articleProject": "Deskribapena: Orain arte, Bizkaiko Etorkinen Elkarteen Federazioak (FEDAIB) bere funtzionamendurako eta bere antolamendu- eta erakunde-helburuak betetzeko eta federazio horren parte diren erakundeek, hau da, hornitzeko espazio propioa eskatzen du. beharrezko baliabide tekniko eta logistikoekin, halako moldez non Federazioko elkarteek espazio propiorik ez dutenek beren antolakuntza-jarduerak egiteko espazio bat izan dezaten, eta beraz, Federazioaren espazio instituzionala da. osatzen duten 16 elkarte.",
+        "entity": "Finantza-Erakundea: Bizkaiko Foru Aldundia, Eusko Jaurlaritza",
+        "country": "Exekuzio-herrialdea: Bizkaiko Lurralde Historikoa"
+    },
+    "navbar": {
+        "proyectos": "Proiektuak",
+        "que_hacemos": "Zer egiten dugu?",
+        "quienes_somos": "Guri buruz?",
+        "contacto": "Kontaktua",
+        "nuestras_actividades": "Gure jarduerak"
+    },
+    "footer": {
+        "message": "Bizkaiko etorkinen elkarteen federazioa"
+    }
+}
