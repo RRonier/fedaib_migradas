@@ -1,9 +1,7 @@
 "use client"
-import { FC, useState } from 'react';
+import React, { FC, useState } from 'react';
 import { useTheme } from '@mui/material/styles';
-import Box from '@mui/material/Box';
-import MobileStepper from '@mui/material/MobileStepper';
-import Button from '@mui/material/Button';
+import { MobileStepper, Skeleton, Button, Box } from '@mui/material';
 import KeyboardArrowLeft from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
 import SwipeableViews from 'react-swipeable-views';
@@ -20,7 +18,7 @@ interface CarrouselProps {
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
-const SwipeableTextMobileStepper: FC<CarrouselProps> = ({ images }) => {
+const SwipeableTextMobileStepper: FC<any> = ({ images }) => {
   const theme = useTheme();
   const [activeStep, setActiveStep] = useState(0);
   const maxSteps = images.length;
@@ -46,10 +44,10 @@ const SwipeableTextMobileStepper: FC<CarrouselProps> = ({ images }) => {
         onChangeIndex={handleStepChange}
         enableMouseEvents
       >
-        {images && images.map((step, index) => (
-          <div key={index}>
+        {images && images.map((step: any, index: number) => (
+          <React.Fragment key={index}>
             {Math.abs(activeStep - index) <= 2 ? (
-              <div key={step.label}>
+              <div key={step.imgPath}>
                 <Box
                   component="img"
                   sx={{
@@ -60,11 +58,11 @@ const SwipeableTextMobileStepper: FC<CarrouselProps> = ({ images }) => {
                     width: '100%',
                   }}
                   src={step.imgPath}
-                  alt={step.label}
+                  alt={step.imgPath}
                 />
               </div>
             ) : null}
-          </div>
+          </React.Fragment>
         ))}
       </AutoPlaySwipeableViews>
       <MobileStepper

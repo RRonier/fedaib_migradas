@@ -2,17 +2,16 @@
 import { useState } from "react";
 import styles from "./styles.module.css"
 import Image from "next/image"
-import { Box, Tab, Tabs, Typography } from "@mui/material";
+import { Box, Tab, Tabs } from "@mui/material";
 import { projectsImages } from "../../constants";
-import dynamic from "next/dynamic";
 import { useTranslations } from 'next-intl';
+import SwipeableTextMobileStepper from "@/app/components/Carrousel"
 
 interface TabPanelProps {
     children?: React.ReactNode;
     index: number;
     value: number;
 }
-const SwipeableTextMobileStepper = dynamic(() => import("@/app/components/Carrousel"), { ssr: false })
 
 function CustomTabPanel(props: TabPanelProps) {
     const { children, value, index, ...other } = props;
@@ -26,9 +25,7 @@ function CustomTabPanel(props: TabPanelProps) {
             {...other}
         >
             {value === index && (
-                <Box sx={{ p: 3 }}>
-                    <Typography>{children}</Typography>
-                </Box>
+                <Box sx={{ p: 3 }}>{children}</Box>
             )}
         </div>
     );
@@ -66,18 +63,16 @@ export default function Proyectos() {
             </Box>
             <CustomTabPanel value={value} index={0}>
                 <Image alt="project firm" src="/assets/project1.jpg" width={150} height={150} />
-                <>
-                    <b>{t('titleProject')}</b>
-                    <>{t('articleProject')}</>
-                    <em style={{ display: 'block' }}>{t('entity')}</em>
-                    <em>{t('country')}</em>
-                </>
+                <b style={{ display: 'block' }}>{t('titleProject')}</b>
+                <p style={{ display: 'block', textAlign: 'justify' }}>{t('articleProject')}</p>
+                <em style={{ display: 'block' }}>{t('entity')}</em>
+                <em>{t('country')}</em>
             </CustomTabPanel>
             <CustomTabPanel value={value} index={1}>
                 <SwipeableTextMobileStepper images={projectsImages} />
                 <>
                     <b>{t('titleProject')}</b>
-                    <>{t('articleProject')}</>
+                    <p style={{ display: 'block', textAlign: 'justify' }}>{t('articleProject')}</p>
                     <em style={{ display: 'block' }}>{t('entity')}</em>
                     <em>{t('country')}</em>
                 </>

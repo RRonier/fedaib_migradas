@@ -1,12 +1,10 @@
 "use client";
-import dynamic from "next/dynamic";
 import styles from "./styles.module.css"
 import { quienesSomosImages } from "../../constants"
 import { useTranslations } from 'next-intl';
+import SwipeableTextMobileStepper from "@/app/components/Carrousel"
 
-const SwipeableTextMobileStepper = dynamic(() => import("@/app/components/Carrousel"), { ssr: false })
-
-export default function QuienesSomosPage({ params: { locale } }: { params: { locale: string } }) {
+export default function QuienesSomosPage() {
     const t = useTranslations('quienes_somos')
     return (
         <main className={styles.main}>
