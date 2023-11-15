@@ -37,5 +37,9 @@
     },
     "footer": {
         "message": "Federación de asociaciones de inmigrantes de Bizkaia"
+    },
+    "LocaleSwitcher": {
+        "label": "Cambiar idioma",
+        "locale": "{locale, select, en {Ingles} es {Español} fr {Frances} eus {Vasco} other {Unknown}}"
     }
 }

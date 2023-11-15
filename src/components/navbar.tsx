@@ -14,31 +14,22 @@ import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import Image from 'next/image';
 import Link from 'next-intl/link';
 import { useTranslations } from 'next-intl';
-import { FormControl, Select, SelectChangeEvent } from '@mui/material';
-import { useLocale } from 'next-intl';
-import { useRouter } from 'next/navigation'
+import { FormControl } from '@mui/material';
 
-import {usePathname, useParams} from 'next/navigation';
+import LocaleSwitcher from './localeSwitcher/localeSwitcher';
 
 export function NavBar() {
     const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
     const [activitiesMenu, setActivitiesMenu] = React.useState<null | HTMLElement>(null);
-    const defaultLocale = useLocale()
-
-    const pathName = usePathname()
-    const localeFromParams = useParams()?.locale;
-    const router = useRouter()
-    
-    const [locale, setLocale] = React.useState(defaultLocale);
 
     const t = useTranslations('navbar')
 
     const pages = [
-        { name: t('proyectos'), url: '/proyectos' },
-        { name: t('que_hacemos'), url: '/que-hacemos' },
-        { name: t('quienes_somos'), url: '/quienes-somos' },
-        { name: t('contacto'), url: '/contacto' },
-        { name: t('nuestras_actividades'), url: '/nuestras-actividades' }
+        { name: t('proyectos'), url: `/proyectos` },
+        { name: t('que_hacemos'), url: `/que-hacemos` },
+        { name: t('quienes_somos'), url: `/quienes-somos` },
+        { name: t('contacto'), url: `/contacto` },
+        { name: t('nuestras_actividades'), url: `/nuestras-actividades` }
     ];
 
     const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
@@ -57,10 +48,6 @@ export function NavBar() {
         setActivitiesMenu(null);
     };
 
-    const handleChange = (event: SelectChangeEvent) => {
-        setLocale(event.target.value as string);
-    };
-
     return (
         <AppBar position="static">
             <Container maxWidth="xl">
@@ -70,7 +57,7 @@ export function NavBar() {
                         variant="h6"
                         noWrap
                         component={Link}
-                        href="/"
+                        href={"/"}
                         sx={{
                             mr: 2,
                             ml: 2,
@@ -132,7 +119,7 @@ export function NavBar() {
                                 <Link
                                     key={page.name}
                                     href={page.url}
-                                    locale={locale}
+                                    // locale={pageLocale}
                                     onClick={handleCloseActivities}
                                     style={{ margin: '2px 0', color: 'white', display: 'block' }}
                                 >
@@ -143,21 +130,8 @@ export function NavBar() {
                     </Box>
                     <Box sx={{ flexGrow: 0 }}>
                         <Box sx={{ minWidth: 100 }}>
-                            <FormControl fullWidth sx={{borderColor: 'white'}}>
-                                <Select
-                                    labelId="locale-selector"
-                                    id="locale-selector"
-                                    value={locale}
-                                    onChange={handleChange}
-                                    aria-labelledby='locale-selector'
-                                    aria-controls=':Rilall9dkq:'
-                                    sx={{borderColor: 'white', color: 'white'}}
-                                >
-                                    <MenuItem value='en' onClick={() => router.push(pathName.replace(localeFromParams.toString(), 'en'))}>en</MenuItem>
-                                    <MenuItem value='es' onClick={() => router.push(pathName.replace(localeFromParams.toString(), 'es'))}>es</MenuItem>
-                                    <MenuItem value='eus' onClick={() => router.push(pathName.replace(localeFromParams.toString(), 'eus'))}>eus</MenuItem>
-                                    <MenuItem value='fr' onClick={() => router.push(pathName.replace(localeFromParams.toString(), 'fr'))}>fr</MenuItem>
-                                </Select>
+                            <FormControl fullWidth sx={{ borderColor: 'white' }}>
+                                <LocaleSwitcher />
                             </FormControl>
                         </Box>
                     </Box>

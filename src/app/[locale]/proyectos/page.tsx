@@ -5,7 +5,7 @@ import Image from "next/image"
 import { Box, Tab, Tabs } from "@mui/material";
 import { projectsImages } from "../../constants";
 import { useTranslations } from 'next-intl';
-import SwipeableTextMobileStepper from "@/app/components/Carrousel"
+import SwipeableTextMobileStepper from "@/components/Carrousel"
 
 interface TabPanelProps {
     children?: React.ReactNode;

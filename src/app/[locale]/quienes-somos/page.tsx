@@ -2,7 +2,7 @@
 import styles from "./styles.module.css"
 import { quienesSomosImages } from "../../constants"
 import { useTranslations } from 'next-intl';
-import SwipeableTextMobileStepper from "@/app/components/Carrousel"
+import SwipeableTextMobileStepper from "@/components/Carrousel"
 
 export default function QuienesSomosPage() {
     const t = useTranslations('quienes_somos')

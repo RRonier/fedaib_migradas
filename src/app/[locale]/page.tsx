@@ -1,11 +1,9 @@
-"use client";
-import { useLocale } from 'next-intl'
-import { redirect, useRouter, useParams } from 'next/navigation';
+import LocaleLayout from '@/app/[locale]/layout'
 
-export default function Home() {
-  const locale = useLocale()
-
-  return (
-    redirect(`/${locale}/quienes-somos`)
-  )
+export default function MainPage() {
+    return (
+        <>
+            <p>This is the Main Page</p>
+        </>
+    )
 }

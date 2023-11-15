@@ -37,5 +37,9 @@
     },
     "footer": {
         "message": "Fédération des associations d'immigrés de Biscaye"
+    },
+    "LocaleSwitcher": {
+        "label": "Changer de langue",
+        "locale": "{locale, select, en {Anglais} es {Espagnol} fr {Français} eus {Basque} other {Unknown}}"
     }
 }
