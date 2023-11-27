@@ -1,6 +1,9 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'standalone'
-}
+// @ts-check
+// /** @type {import('next').NextConfig} */
+const withNextIntl = require('next-intl/plugin')();
 
-module.exports = nextConfig
+module.exports = withNextIntl({
+    output: 'standalone',
+    productionBrowserSourceMaps: false, // Disable source maps in development
+    optimizeFonts: false, // Disable font optimization
+});

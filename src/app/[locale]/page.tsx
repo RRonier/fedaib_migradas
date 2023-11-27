@@ -1,9 +1,10 @@
-import LocaleLayout from '@/app/[locale]/layout'
+import { redirect } from "@/navigation"
+import { unstable_setRequestLocale } from 'next-intl/server';
+import { Props } from "../types";
 
-export default function MainPage() {
-    return (
-        <>
-            <p>This is the Main Page</p>
-        </>
-    )
+
+export default function MainPage({ params: { locale } }: Props) {
+    unstable_setRequestLocale(locale)
+
+    redirect('/quienes-somos')
 }

@@ -1,55 +1,54 @@
-import {Inter} from 'next/font/google';
-import {notFound} from 'next/navigation';
-import {createTranslator, NextIntlClientProvider} from 'next-intl';
-import {ReactNode} from 'react';
+import { Inter } from 'next/font/google';
+import { notFound } from 'next/navigation';
+import { ReactNode } from 'react';
 import { NavBar } from '@/components/navbar';
+import { Footer } from '@/components/footer/footer';
 import styles from "./layout.module.css"
+import { locales } from '@/config'
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { NextIntlClientProvider, useMessages } from 'next-intl';
 
-const inter = Inter({subsets: ['latin']});
+const inter = Inter({ subsets: ['latin'] });
 
 type Props = {
   children: ReactNode;
-  params: {locale: string};
+  params: { locale: string };
 };
 
-async function getMessages(locale: string) {
-  try {
-    return (await import(`../../../messages/${locale}.json`)).default;
-  } catch (error) {
-    notFound();
-  }
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
 }
 
-export async function generateStaticParams() {
-  return ['en', 'es', 'fr', 'eus'].map((locale) => ({locale}));
-}
+export async function generateMetadata({ params: { locale } }: Omit<Props, 'children'>) {
+  // const t = await getTranslations({ locale, namespace: 'LocaleLayout' });
 
-export async function generateMetadata({params: {locale}}: Props) {
-  const messages = await getMessages(locale);
-
-  // You can use the core (non-React) APIs when you have to use next-intl
-  // outside of components. Potentially this will be simplified in the future
-  // (see https://next-intl-docs.vercel.app/docs/next-13/server-components).
-  const t = createTranslator({locale, messages});
+  // console.log({t})
 
   return {
     title: 'FEDAIB'
   };
 }
 
-export default async function LocaleLayout({
+export default function LocaleLayout({
   children,
-  params: {locale}
+  params: { locale }
 }: Props) {
-  const messages = await getMessages(locale);
+
+  const messages = useMessages();
+
+  //Validate that the incoming `locale` parameter is valid
+  if (!locales.includes(locale as any)) notFound()
+
+  unstable_setRequestLocale(locale);
 
   return (
     <html lang={locale}>
       <body className={styles.body}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <NavBar />
-          {children}
         </NextIntlClientProvider>
+        {children}
+        <Footer />
       </body>
     </html>
   );

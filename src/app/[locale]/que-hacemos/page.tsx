@@ -1,8 +1,14 @@
-"use client"
 import styles from "./page.module.css"
 import { useTranslations } from 'next-intl';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
-export default function QueHacemosPage() {
+type Props = {
+    params: { locale: string };
+}
+
+export default function QueHacemosPage({ params: { locale } }: Props) {
+    unstable_setRequestLocale(locale)
+
     const t = useTranslations('que_hacemos')
 
     return (

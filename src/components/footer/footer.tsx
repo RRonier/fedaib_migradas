@@ -1,4 +1,3 @@
-"use client"
 import styles from "./footer.module.css"
 import { useTranslations } from 'next-intl';
 
