@@ -5,8 +5,7 @@ export default createMiddleware({
   defaultLocale: 'eus',
   locales,
   pathnames,
-  // localeDetection: false,
-  // localePrefix: 'as-needed'
+  localeDetection: true,
 });
 
 export const config = {
